@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riley Barton</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <section class="ABOUTMENU">
+        <nav>
+            <a href="index.html"><img src="Images/Logo 3.png" alt="Logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    </section>
+    
+    <main>
+        <section id="product" class="py-7">
+            <div class="container">
+                <div class="product-content">
+                    <div class="title">
+                        <h6>Gallery</h6>
+                    </div>
+                    <div class="containerr">
+                        <div class="box">
+                            <div class="imagee">
+                                <a href="photo.html">
+                                    <img class="image__img" src="images/fishing (2).jpg" alt="Bricks">
+                                    <div class="image-text">Photos</div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="imagee">
+                                <a href="photoshop.html">
+                                    <img class="image__img" src="images/Riley_Barton_Butterfly2.png" alt="Bricks">
+                                    <div class="image-textt">Photoshops</div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="imagee">
+                                <a href="video.html">
+                                    <img class="image__img" src="images/Photo_11.png">
+                                    <div class="image-text">Videos</div>                                   
+                                </a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+    
+    <footer id="footer" class="py-7">
+        <div class="container">
+            <div class="footer-content">
+                <div>
+                    <h3>RILEY BARTON</h3>
+                    <div><img src="images/MeSmall.png" alt="Riley Barton"></div>
+                </div>
+                <div class="ion-icon">
+                    <h3>Links</h3>
+                    
+                    <a class="social-icon" href="https://www.youtube.com/channel/UC13ULeidR-TLNxJeNYTziQQ" target="_blank">
+                        <ion-icon name="logo-youtube"></ion-icon>
+                    </a>
+                    <a class="social-icon" href="https://www.instagram.com/rileybartonphotography/" target="_blank">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Typewriting JS and Ionicons -->
+    <script src="typewriting-master/typewriting.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script>
+        var navLinks = document.getElementById('navLinks');
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

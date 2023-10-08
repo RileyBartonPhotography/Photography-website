@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Riley Barton</title>
+        <!-- font awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel = "stylesheet" href = "style.css">
+    </head>
+    <body>
+<section class="ABOUTMENU">
+
+    <nav>
+        <a href="index.html"><img src="Images/Logo 3.png" alt="Logo"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+</section>
+<!-- main content -->
+<main>
+    <!-- about section -->
+    <section id = "about" class = "about py-7">
+        <div class = "about-container">
+            <div class = "about-content grid">
+                
+                <div class = "">
+                    <div class = "title">
+                        <h5>About Me</h5>
+                    </div>
+                    <p class = "lead">Hi, I'm Riley, a 15 year old photographer and film maker from New Zealand. My passion for photography began 6 years ago when my school hosted a local photography competition, since then, photography has been something ive always gone back to, becoming more serious during the start of 2023. </p>
+                    <p class = "lead">Below is the gear I use, I dont have a very diverse selection so I adapt to my surrondings and get creative.</p>
+
+                    <div class="title">
+
+                        <h2>My Gear</h2>
+
+                    </div>
+
+                    <p class="lead">
+                        • Canon EOS 200D<br>
+                        • Canon EF 50mm 1.8
+                    </p>
+                    
+                </div>
+                <div class="about-column">
+                    <div class="about-right">
+                        <img src="images/Untitled-222.png">
+                    </div>
+                    <div class="about-right">
+                        <img src="images/boat.jpg">
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of about section -->
+
+    </main>
+    <!-- footer -->
+<footer id = "footer" class = "py-7">
+    <div class = "container">
+        <div class = "footer-content">
+            <div>
+                <h3>RILEY BARTON</h3>
+                <div><img src = "images/MeSmall.png"></div>
+            </div>
+
+            <div class="ion-icon">
+                <h3>Links</h3>
+               
+                
+                <a class="social-icon" href="https://www.youtube.com/channel/UC13ULeidR-TLNxJeNYTziQQ" target="_blank"> 
+                    <ion-icon name="logo-youtube"></ion-icon>
+                    
+                </a>
+
+                <a class="social-icon" href="https://www.instagram.com/rileybartonphotography/" target="_blank">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- end of footer -->
+
+
+<!-- typewriting js -->
+<script src = "typewriting-master/typewriting.js"></script>
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script>
+    var navLinks = document.getElementById('navLinks');
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
