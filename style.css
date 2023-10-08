@@ -89,6 +89,13 @@ img {
     line-height: 1.8;
 }
 
+html, body {
+    overflow-x: hidden;
+  }
+  body {
+    position: relative
+  }
+
 /* Header Styles */
 .header {
     min-height: 100vh;
@@ -1387,7 +1394,7 @@ nav .fa {
     right: 0;
     padding: 10px;
     padding-left: 30px;
-    padding-bottom: 60px;
+    padding-bottom: 120px;
     text-align: left;
     opacity: 1; /* Always show the text */
     font-weight: 600;
