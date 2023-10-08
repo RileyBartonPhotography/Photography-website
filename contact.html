@@ -39,9 +39,15 @@
                     </div>
                     <p class="lead"><i class="fas fa-envelope"></i> rileybarton.contact@gmail.com</p>
                     <form action="https://formsubmit.co/rileybarton.contact@gmail.com" method="POST">
+                        <!-- Honeypot -->
+                        <input type="text" name="_honey" style="display: none;">
+
+                        <!-- Disable Captcha -->
+                        <input type="hidden" name="_captcha" value="false">
+
                         <input type="text" class="form-control" name="Name" placeholder="Your name here ...">
                         <input type="email" class="form-control" name="Email"  placeholder="Your email here">
-                        <textarea class="form-control" name="message, questions?" placeholder="Your message here"></textarea>
+                        <textarea class="form-control" name="comments, questions?" placeholder="Your message here"></textarea>
                         <input type="submit" class="btn-submit btn" value="Submit">
                     </form>
                 </div>
