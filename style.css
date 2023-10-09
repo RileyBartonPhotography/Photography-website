@@ -26,6 +26,7 @@ body {
     font-size: 1.6rem;
     font-family: 'Poppins', sans-serif;
     line-height: 1.6;
+    background-color: #332e29;
 }
 
 button, .btn {
@@ -703,147 +704,7 @@ nav .fa {
     }
 }
 
-/* Slider Styles */
 
-
-.slider-frame {
-    overflow: hidden;
-    width: 100%; /* Remove fixed width */
-    height: auto; /* Remove fixed height */
-    margin-left: 0px;
-    margin-top: 20px;
-    justify-content: center;
-}
-
-
-.slide-images :hover {
-    opacity: 100%;
-    transition: 0.5s;
-}
-
-.slide-images > div {
-    transition: var(--transition);
-}
-
-/* Slide Animation */
-@keyframes slide_animation {
-    0% {
-        left: 0px;
-    }
-
-    10% {
-        left: 0px;
-    }
-
-    20% {
-        left: 1200px;
-    }
-
-    30% {
-        left: 1200px;
-    }
-
-    40% {
-        left: 2400px;
-    }
-
-    50% {
-        left: 2400px;
-    }
-
-    60% {
-        left: 1200px;
-    }
-
-    70% {
-        left: 1200px;
-    }
-
-    80% {
-        left: 0px;
-    }
-
-    90% {
-        left: 0px;
-    }
-
-    100% {
-        left: 0px;
-    }
-}
-
-@-webkit-keyframes slide_animation {
-    0% {
-        left: 0px;
-    }
-
-    10% {
-        left: 0px;
-    }
-
-    20% {
-        left: 1200px;
-    }
-
-    30% {
-        left: 1200px;
-    }
-
-    40% {
-        left: 2400px;
-    }
-
-    50% {
-        left: 2400px;
-    }
-
-    60% {
-        left: 1200px;
-    }
-
-    70% {
-        left: 1200px;
-    }
-
-    80% {
-        left: 0px;
-    }
-
-    90% {
-        left: 0px;
-    }
-
-    100% {
-        left: 0px;
-    }
-}
-
-@media (max-width: 480px) {
-    .slider-frame {
-        width: 100%;
-        height: 100%;
-    }
-}
-
-
-
-.slide-images {
-    justify-content: center;
-    width: auto; /* Remove fixed width */
-    height: auto; /* Remove fixed height */
-    margin: 0 0 0 -2400px;
-    position: relative;
-    -webkit-animation-name: slide_animation;
-    animation-name: slide_animation;
-    -webkit-animation-duration: 33s;
-    animation-duration: 33s;
-    -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
-    -webkit-animation-direction: alternate;
-    animation-direction: alternate;
-    -webkit-animation-play-state: running;
-    animation-play-state: running;
-}
 
 .img-container {
     justify-content: center;
@@ -1484,4 +1345,30 @@ nav .fa {
 
 .successtext{
     font-size: 18px;
+}
+
+#about {
+    background-color: rgb(248, 248, 248);
+}
+
+#product {
+    background-color: rgb(248, 248, 248);
+}
+
+#insta {
+    background-color: #ffffff;
+}
+
+@media(max-width: 786px){
+    .imagee{
+        max-height: 400px;
+    }
+}
+
+#portfolioo {
+    background-color: #ffffff;
+}
+
+.iconspace{
+    margin-bottom: 20px;
 }
